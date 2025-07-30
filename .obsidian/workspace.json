@@ -11,10 +11,14 @@
             "id": "be128ac20a2eabf9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Project-1/Allocation tracking system.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Allocation tracking system"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Project-1/Allocation tracking system.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Allocation tracking system"
             }
           },
           {
@@ -173,8 +178,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "43a020dab262053d",
+  "active": "be128ac20a2eabf9",
   "lastOpenFiles": [
+    "Project-1/Allocation tracking system.md",
+    "Project-1/SafeCUDA.md",
+    "Project-1/GPU memory exploitation for fun.pdf",
+    "Project-1/GPUArmor.pdf",
+    "Project-1/cuCatch.pdf",
+    "Project-1/Buffer vulnerabilities in CUDA.pdf",
     "Project-1",
     "Excalidraw/Waterfall Model.excalidraw.md",
     "Excalidraw/Drawing 2025-01-02 10.48.12.excalidraw.md",
@@ -185,11 +196,6 @@
     "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/EXPT 6.pdf",
     "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/EXPT 6.pdf.678a27c3.partial",
     "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/Diode characteristics.pdf",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/DC Power Supply using Rectifier_Introduction to Engg.pdf",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/Diode characteristics.pdf.2cf3d204.partial",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/DC Power Supply using Rectifier_Introduction to Engg.pdf.ace6d8e8.partial",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/DA1.pdf",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/DA1.pdf.b6593e87.partial",
     "Notes/Sem_5/BCSE355L/M2/Storage.md",
     "Notes/Sem_5/BCSE355L/M2/S3.md",
     "Notes/Sem_5/BCSE355L/M2/Pasted image 20241126214814.png",
@@ -215,8 +221,6 @@
     "Notes/Sem_6/BCSE209L/BCSE209L - Machine Learning.md",
     "Notes/Sem_5/BECE204L/8086 instruction set.md",
     "4jyunt.md",
-    "what.ts.md",
-    "Notes/Sem_6/BCSE307L/BCSE307L - Compiler Design.md",
     "PDFs/Sem-6/BCSE302- DBMS/Sravan Saar Zip Bomb/1685361245641.jpg",
     "PDFs/Sem-6/BCSE302- DBMS/Sravan Saar Zip Bomb/1685361245659.jpg",
     "PDFs/Sem-6/BCSE302- DBMS/Sravan Saar Zip Bomb/1685361245650.jpg",

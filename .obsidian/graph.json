@@ -2,10 +2,10 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:Code  ",
@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 14701233
       }
+    },
+    {
+      "query": "path:Project-1  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
     }
   ],
   "collapse-display": true,
@@ -81,6 +88,6 @@
   "repelStrength": 9.38971412556054,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.885031111890412,
+  "scale": 0.3480206166995276,
   "close": true
 }
