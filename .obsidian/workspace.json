@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project-1/Allocation tracking system.md",
+                "file": "Notes/Sem_5/BCSE301L/Functional Points Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Allocation tracking system"
+              "title": "Functional Points Analysis"
             }
           }
         ]
@@ -140,13 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project-1/Allocation tracking system.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Allocation tracking system"
+              "title": "Outline"
             }
           },
           {
@@ -155,8 +154,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -169,6 +168,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,24 +178,34 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "be128ac20a2eabf9",
+  "active": "43a020dab262053d",
   "lastOpenFiles": [
+    "Notes/Sem_5/AI and software.zip",
+    "Notes/Sem_5/BCSE301L/COCOMO.md",
+    "Notes/Sem_5/BCSE301L/BCSE301L- Software Engineering.md",
+    "Notes/Sem_5/BCSE301L/Agile.md",
+    "Notes/Sem_7/BMGT107L/Module 1.md",
+    "Notes/Sem_7/BMGT107L/Module 1.md~",
+    "Notes/Sem_7/BMGT107L/BMGT107L_BUSINESS-ANALYTICS_TH_1.0_0_BMGT107L.pdf",
+    "Notes/Sem_7/BMGT107L/Module 2.md",
+    "Notes/Sem_7/BMGT107L/BMGT107L - Business Analytics.md",
+    "Notes/Sem_7/Sem 7.md",
+    "Notes/Sem_6/Sem 6.md",
+    "Notes/Sem_5/Subjects.md",
+    "Notes/Sem_7/BMGT107L/da-stats-topic02-introduction-to-descriptive-and-predictive-analysis.pdf",
+    "Notes/Sem_7/BMGT107L/Business Analytics.pptx",
+    "Notes/Sem_7/BMGT107L/Business Analytics Notes.pptx",
+    "Notes/Sem_7/BMGT107L/Business Analytics Notes 1.pptx",
+    "Notes/Sem_7/BMGT107L",
+    "Notes/Sem_7/Business Analytics/Business Analytics Notes 1.pptx",
+    "Notes/Sem_7/Business Analytics/da-stats-topic02-introduction-to-descriptive-and-predictive-analysis.pdf",
+    "Notes/Sem_7/Business Analytics/Business Analytics.pptx",
     "Project-1/Allocation tracking system.md",
     "Project-1/SafeCUDA.md",
-    "Project-1/GPU memory exploitation for fun.pdf",
-    "Project-1/GPUArmor.pdf",
-    "Project-1/cuCatch.pdf",
-    "Project-1/Buffer vulnerabilities in CUDA.pdf",
-    "Project-1",
     "Excalidraw/Waterfall Model.excalidraw.md",
     "Excalidraw/Drawing 2025-01-02 10.48.12.excalidraw.md",
     "Journal/2025-04-13.md",
     "Notes/Sem_6/BCSE302L/BCSE302L - Database Systems.md",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/DC-machines-mine.pdf",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/DC-machines-mine.pdf.97c42852.partial",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/EXPT 6.pdf",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/EXPT 6.pdf.678a27c3.partial",
-    "PDFs/Sem-1 and Sem-2/BEEE102L- EEE/Diode characteristics.pdf",
     "Notes/Sem_5/BCSE355L/M2/Storage.md",
     "Notes/Sem_5/BCSE355L/M2/S3.md",
     "Notes/Sem_5/BCSE355L/M2/Pasted image 20241126214814.png",
@@ -212,15 +222,6 @@
     "Notes/Sem_5/BCSE355L/M1/Shared Responsibility Model.md",
     "Notes/Sem_5/BCSE355L/M1/Pasted image 20241126211938.png",
     "Notes/Sem_5/BCSE355L/M1/IAM.md",
-    "Notes/Sem_5/BCSE355L/M1/M1.md",
-    "Notes/Sem_5/BCSE355L/M1/AWS Global Infrastructure.md",
-    "Notes/Sem_6/Sem 6.md",
-    "Notes/Notes.md",
-    "Notes/Sem_6/BCSE305L/BCSE305L - Embedded Systems.md",
-    "Notes/Sem_6/BCSE309L/BCSE309L - Cryptography and Network Security.md",
-    "Notes/Sem_6/BCSE209L/BCSE209L - Machine Learning.md",
-    "Notes/Sem_5/BECE204L/8086 instruction set.md",
-    "4jyunt.md",
     "PDFs/Sem-6/BCSE302- DBMS/Sravan Saar Zip Bomb/1685361245641.jpg",
     "PDFs/Sem-6/BCSE302- DBMS/Sravan Saar Zip Bomb/1685361245659.jpg",
     "PDFs/Sem-6/BCSE302- DBMS/Sravan Saar Zip Bomb/1685361245650.jpg",
