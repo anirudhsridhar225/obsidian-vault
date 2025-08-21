@@ -1,31 +1,31 @@
 ## Cat-1
-- [ ] ba vs ds
-- [ ] ba vs big data
-- [ ] business intelligence
-- [ ] data mining, rl, sl
-- [ ] data types and scales
-- [ ] data cleansing and data preparation
-- [ ] descriptive analytics
-	- [ ] mean
-	- [ ] median
-	- [ ] mode
-	- [ ] std error
-	- [ ] std deviation
-	- [ ] variance
-	- [ ] skewness
-	- [ ] kurtosis
-- [ ] data visualization
-	- [ ] histogram
-	- [ ] bar plot
-	- [ ] box plot
+- [x] ba vs ds
+- [x] ba vs big data
+- [x] business intelligence
+- [x] data mining, rl, sl
+- [x] data types and scales
+- [x] data cleansing and data preparation
+- [x] descriptive analytics
+	- [x] mean
+	- [x] median
+	- [x] mode
+	- [x] std error
+	- [x] std deviation
+	- [x] variance
+	- [x] skewness
+	- [x] kurtosis
+- [x] data visualization
+	- [x] histogram
+	- [x] bar plot
+	- [x] box plot
 	- [ ] scatter plot
-	- [ ] pie chart
+	- [x] pie chart
 	- [ ] tree plot
-- [ ] probability
-	- [ ] distributions
-	- [ ] hypothesis testing
-	- [ ] p-value
-	- [ ] relationship among variables
+- [x] probability
+	- [x] distributions
+	- [x] hypothesis testing
+	- [x] p-value
+	- [x] relationship among variables
 
 ## Module wise notes
 [[Module 1]]
