@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/DSA/DFS and BFS.md",
+                "file": "Notes/Sem_7/BCSE324L/Design Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFS and BFS"
+              "title": "Design Principles"
             }
           }
         ]
@@ -180,13 +180,24 @@
   },
   "active": "be128ac20a2eabf9",
   "lastOpenFiles": [
+    "Notes/Sem_7/BCSE324L/Ecosystem.md~",
+    "Notes/Sem_7/BCSE324L/Proof of Stake.md~",
+    "Notes/Sem_7/BCSE324L/BCSE324L - Blockchain Technology.md~",
+    "Notes/Sem_7/BCSE324L/Ecosystem.md",
+    "Notes/Sem_7/BCSE324L/Proof of Work.md~",
+    "Notes/Sem_7/BCSE324L/Design Principles.md~",
+    "Notes/Sem_7/BCSE324L/Proof of Stake.md",
+    "Notes/Sem_7/BCSE324L/Consensus Algorithm.md",
+    "Notes/Sem_7/BCSE324L/Proof of Work.md",
+    "Notes/Sem_7/BCSE324L/Foundations of Blockchain.md",
+    "Notes/Sem_7/BCSE324L/BCSE324L - Blockchain Technology.md",
+    "Notes/DSA/DFS and BFS.md",
     "Notes/DSA/DFS and BFS.md~",
     "Notes/DSA/Graphs.md",
     "Notes/DSA/Graphs.md~",
     "Notes/DSA/Prims and Kruskals.md",
     "Notes/DSA/Kahn's Algorithm.md",
     "Notes/DSA/Floyd Warshall.md",
-    "Notes/DSA/DFS and BFS.md",
     "Notes/DSA/Bellman Ford.md",
     "Notes/DSA/Djikstra's Algorithm.md",
     "Notes/Sem_5/BCSE301L/Functional Points Analysis.md",
@@ -203,19 +214,8 @@
     "Notes/Sem_6/Sem 6.md",
     "Notes/Sem_5/Subjects.md",
     "Notes/Sem_7/BMGT107L/da-stats-topic02-introduction-to-descriptive-and-predictive-analysis.pdf",
-    "Notes/Sem_7/BMGT107L/Business Analytics.pptx",
-    "Notes/Sem_7/BMGT107L/Business Analytics Notes.pptx",
-    "Notes/Sem_7/BMGT107L/Business Analytics Notes 1.pptx",
-    "Notes/Sem_7/BMGT107L",
-    "Notes/Sem_7/Business Analytics/Business Analytics Notes 1.pptx",
     "Project-1/Allocation tracking system.md",
     "Project-1/SafeCUDA.md",
-    "Excalidraw/Waterfall Model.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-02 10.48.12.excalidraw.md",
-    "Journal/2025-04-13.md",
-    "Notes/Sem_6/BCSE302L/BCSE302L - Database Systems.md",
-    "Notes/Sem_5/BCSE355L/M2/Storage.md",
-    "Notes/Sem_5/BCSE355L/M2/S3.md",
     "Notes/Sem_5/BCSE355L/M2/Pasted image 20241126214814.png",
     "Notes/Sem_5/BCSE355L/M2/Pasted image 20241126203711.png",
     "Notes/Sem_5/BCSE355L/M2/Pasted image 20241126212914.png",
