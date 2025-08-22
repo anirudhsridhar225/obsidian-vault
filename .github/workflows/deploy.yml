@@ -1,0 +1,30 @@
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+        working-directory: quartz
+      - run: npx quartz build --directory=../
+        working-directory: quartz
+      - name: Add CNAME
+        run: echo "vault.anirudh.foo" > quartz/public/CNAME
+      - uses: actions/upload-pages-artifact@v2
+        with: { path: quartz/public }
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write 
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to gh pages
+        id: deployment
+        uses:  actions/deploy-pages@v4
