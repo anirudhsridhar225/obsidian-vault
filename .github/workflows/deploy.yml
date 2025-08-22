@@ -12,7 +12,7 @@ jobs:
         working-directory: quartz
       - name: Add CNAME
         run: echo "vault.anirudh.foo" > quartz/public/CNAME
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v4
         with: { path: quartz/public }
 
   publish:
