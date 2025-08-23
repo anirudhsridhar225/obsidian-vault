@@ -1,0 +1,32 @@
+
+# CAT-1
+
+- [X] [[Foundations of Blockchain]]
+    - [X] architecture
+    - [X] challenges and applications
+    - [X] [[Design Principles]]
+    - [X] [[Ecosystem]]
+- [X] consensus problem
+- [X] async byzantine agreement
+- [X] AAP protocol
+- [X] p2p network
+- [X] abstract models
+    - [X] GARAY model
+    - [X] RLA model
+- [X] Proof of work
+- [X] Proof of stake
+- [X] ledger
+    - [X] public and private ledger
+    - [X] registries
+- [X] DLT
+    - [X] ecosystem of DLT
+- [X] role of consensus mechanism
+- [X] distributed ledger impl
+- [X] ethereum
+- [X] keyless technology
+- [X] transparency
+- [X] zero knowledge proof
+- [X] public and private blockchain
+- [ ] smart contracts
+- [ ] solidity
+- [ ] life cycle of a smart contract

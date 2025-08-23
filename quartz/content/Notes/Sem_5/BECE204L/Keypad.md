@@ -1,0 +1,142 @@
+4x4 keypad
+
+|      | P0.0 | P0.1 | P0.2 | P0.3 |
+| ---- | ---- | ---- | ---- | ---- |
+| P1.3 | C    | D    | E    | F    |
+| P1.2 | 8    | 9    | A    | B    |
+| P1.1 | 4    | 5    | 6    | 7    |
+| P1.0 | 0    | 1    | 2    | 3    |
+- the rows are connected to o/p port
+- the columns are connected to i/p port
+
+keypress --> input port becomes 0
+
+
+Code:
+
+```8051
+ORG 0000H
+	LJMP MAIN
+
+ORG 0030H
+MAIN:
+	MOV P0, #0FFH; MAKE P0 INPUT
+	ACALL LCD_INIT
+
+	K1:
+		MOV P1, #0 ; GROUND ALL ROWS
+		MOV A, P0 ; READ ALL COLS
+		ANL A, #00001111B
+		CJNE A, #00001111B, K2
+		SJMP K1
+
+	K2:
+		ACALL DELAY
+		MOV A, P0
+		ANL A, #00001111B
+		CJNE A, #00001111B, OVER
+		SJMP K2
+
+	OVER:
+		ACALL DELAY
+		MOV A, P0
+		ANL A, #00001111B
+		CJNE A, #00001111B, OVER1
+		SJMP K2
+
+	OVER1:
+		MOV P1, #11111110B
+		MOV A, P0
+		ANL A, #00001111B
+		CJNE A, #00001111B, ROW_0
+		MOV P1, #11111101B
+		MOV A, P0
+		ANL A, #00001111B
+		CJNE A, #00001111B, ROW_1
+		MOV P1, #11111011B
+		MOV A, P0
+		ANL A, #00001111B
+		CJNE A, #00001111B, ROW_2
+		MOV P1, #11110111B
+		MOV A, P0
+		ANL A, #00001111B
+		CJNE A, #00001111B, ROW_3
+		LJMP K2
+
+	ROW_0:
+		MOV DPTR, #KCODE0
+		SJMP FIND
+	ROW_1:
+		MOV DPTR, #KCODE1
+		SJMP FIND
+	ROW_2:
+		MOV DPTR, #KCODE2
+		SJMP FIND
+	ROW_3:
+		MOV DPTR, #KCODE3
+
+	FIND:
+		RRC A; SEE IF ANY CARRY BIT IS LOW
+		JNC MATCH
+		INC DPTR
+		SJMP FIND
+
+	MATCH:
+		CLR A
+		MOVC A, @A+DPTR
+		ACALL LCD_DATA
+		LJMP K1
+
+	DELAY:
+		MOV R3, #40
+	LOOP1:
+		MOV R2, #230
+	LOOP2:
+		DJNZ R2, LOOP2
+		DJNZ R3, LOOP1
+		RET
+
+	LCD_INIT:
+		MOV A, #38H
+		ACALL COMMS
+		ACALL DELAY
+		MOV A, #OFH
+		ACALL COMMS
+		ACALL DELAY
+		MOV A, #01H
+		ACALL COMMS
+		ACALL DELAY
+		MOV A, #06H
+		ACALL COMMS
+		ACALL DELAY
+		MOV A, #80H
+		ACALL COMMS
+		ACALL DELAY
+		RET
+
+	COMMS:
+		MOV P2, A
+		CLR P3.7; RS
+		CLR P3.6; R/W
+		SETB P3.5
+		ACALL DELAY
+		CLR P3.5
+		RET
+
+	LCD_DATA:
+		MOV P2, A
+		CLR P3.6
+		SETB P3.7
+		SETB P3.5
+		ACALL DELAY
+		CLR P3.5
+		RET
+
+ORG 300H
+KCODE3: DB 'C', 'D', 'E', 'F'
+KCODE2: DB '8', '9', 'A', 'B'
+KCODE1: DB '4', '5', '6', '7'
+KCODE0: DB '0', '1', '2', '3'
+
+END
+```

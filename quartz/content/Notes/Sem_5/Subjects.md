@@ -1,0 +1,6 @@
+[[BCSE306L-Artificial Intelligence]]
+[[BSTS301P-Advanced Competitive Coding 1]]
+[[BMAT205L-Discrete Math and Graph Theory]]
+[[BECE204L-Microprocessors and Microcontrollers]]
+[[BCSE355L- AWS Solutions Architect]]
+[[BCSE301L- Software Engineering]]
