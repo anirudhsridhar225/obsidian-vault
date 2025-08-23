@@ -1,5 +1,0 @@
-[[BCSE403L- Digital Image Processing]]
-[[BCSE307L - Compiler Design]]
-[[BCSE302L - Database Systems]]
-[[BCSE209L - Machine Learning]]
-[[BCSE305L - Embedded Systems]]

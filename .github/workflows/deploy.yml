@@ -20,7 +20,7 @@ jobs:
         working-directory: ./quartz
         run: npx quartz build
       - name: Add CNAME
-        run: echo "vault.anirudh.foo" > quartz/public/CNAME
+        run: echo "https://vault.anirudh.foo" > quartz/public/CNAME
       - name: Upload to pages
         uses: actions/upload-pages-artifact@v4
         with: { path: quartz/public }
