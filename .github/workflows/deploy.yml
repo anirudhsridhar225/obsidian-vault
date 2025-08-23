@@ -5,23 +5,24 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-      - run: ls -R | grep quartz
-      - name: setup node
+      - name: Setup node
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: 'quartz/package-lock.json'
-      - run: npm ci
+      - name: Install packages
+        run: npm ci
         working-directory: quartz
       - name: Clean Quartz public
         run: rm -rf quartz/public
       - name: Build Quartz
         working-directory: ./quartz
-        run: npx quartz build --directory=../ --output=./public
+        run: npx quartz build
       - name: Add CNAME
         run: echo "vault.anirudh.foo" > quartz/public/CNAME
-      - uses: actions/upload-pages-artifact@v4
+      - name: Upload to pages
+        uses: actions/upload-pages-artifact@v4
         with: { path: quartz/public }
 
   publish:
