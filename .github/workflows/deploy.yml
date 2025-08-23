@@ -18,7 +18,7 @@ jobs:
       - run: find . -name public
       - run: |
           cd quartz
-          npx quartz build --directory=../
+          npx quartz build --directory=../ --output=./public
       - name: Add CNAME
         run: echo "vault.anirudh.foo" > quartz/public/CNAME
       - uses: actions/upload-pages-artifact@v4
