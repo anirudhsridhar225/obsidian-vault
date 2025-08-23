@@ -14,11 +14,11 @@ jobs:
           cache-dependency-path: 'quartz/package-lock.json'
       - run: npm ci
         working-directory: quartz
-      - run: rm -rf quartz/public
-      - run: find . -name public
-      - run: |
-          cd quartz
-          npx quartz build --directory=../ --output=./public
+      - name: Clean Quartz public
+        run: rm -rf quartz/public
+      - name: Build Quartz
+        working-directory: ./quartz
+        run: npx quartz build --directory=../ --output=./public
       - name: Add CNAME
         run: echo "vault.anirudh.foo" > quartz/public/CNAME
       - uses: actions/upload-pages-artifact@v4
