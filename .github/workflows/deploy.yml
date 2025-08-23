@@ -15,6 +15,7 @@ jobs:
       - run: npm ci
         working-directory: quartz
       - run: rm -rf quartz/public
+      - run: ls -R | grep quartz/public
       - run: npx quartz build --directory=../
         working-directory: quartz
       - name: Add CNAME
