@@ -3,7 +3,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: update submodules
         run: git submodule update --init --recursive
       - run: ls -R
