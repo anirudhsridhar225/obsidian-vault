@@ -5,11 +5,7 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-      - name: update submodules
-        run: git submodule update --init --recursive
-      - run: ls -R
+      - run: ls -R | grep quartz
       - name: setup node
         uses: actions/setup-node@v4
         with:
