@@ -9,10 +9,8 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: |
-            ~/.npm
-            node_modules
+          node-version: 20
+          cache: npm
           cache-dependency-path: quartz/package-lock.json
       - run: npm ci
         working-directory: quartz
